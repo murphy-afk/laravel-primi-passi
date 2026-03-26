@@ -6,6 +6,17 @@
   <title>Home</title>
 </head>
 <body>
-  <h1>Hello World!</h1>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="{{ route('page1') }}">Page 1</a>
+        </li>
+        <li>
+          <a href="{{ route('page2') }}">Page 2</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 </body>
 </html>
