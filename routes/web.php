@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    $text = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, explicabo voluptatem. Cupiditate nemo explicabo, labore atque consequuntur odio! Quaerat explicabo sunt doloribus commodi eligendi ad blanditiis perferendis debitis voluptas iste';
+    return view('home', compact('text'));
 });
 
 Route::get('/page1', function () {

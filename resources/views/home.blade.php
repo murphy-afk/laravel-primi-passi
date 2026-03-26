@@ -18,5 +18,8 @@
       </ul>
     </nav>
   </header>
+  <p>
+    {{ $text }}
+  </p>
 </body>
 </html>
